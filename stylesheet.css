@@ -1,1 +1,57 @@
+/* Styling the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
 
+/* Styling content boxes (Class requirement) */
+.content-box {
+    background: #ffffff;
+    padding: 30px;
+    margin: 30px auto;
+    width: 75%;
+    max-width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.3);
+}
+
+/* ID requirement */
+#hero-section {
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+#menu-section {
+    border: 2px dashed #ffb6c1;
+}
+
+/* Box model properties requirement (border and padding) */
+.cookie-img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #ffccd5;
+    padding: 8px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.highlight-flavor {
+    color: #d81b60;
+    font-weight: bold;
+}
+
+/* Hover requirement for links */
+a {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
